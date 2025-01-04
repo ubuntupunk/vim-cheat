@@ -1,7 +1,7 @@
 # Vim Cheat Sheet | rofi / fzf launcher
 
-![dark-cover](https://github.com/ubuntpunk/rofi-vim/blob/main/src/readme/Dark-Cover.png#gh-dark-mode-only)
-![light-cover](https://github.com/ubuntpunk/rofi-vim/blob/main/src/readme/Light-Cover.png#gh-light-mode-only)
+![dark-cover](https://github.com/ubuntupunk/vim-cheat/blob/main/src/rofi_vim/readme/Dark-Cover.png))
+![light-cover](https://github.com/ubuntpunk/rofi-vim/blob/main/src/rofi_vim/readme/Light-Cover.png))
 
 This project provides two helpers to access to **Vim commands** and **shortcuts** via an **interactive cheat sheet**
 
