@@ -3,7 +3,7 @@
 ![dark-cover](https://github.com/ubuntupunk/vim-cheat/blob/main/src/rofi_vim/readme/Dark-Cover.png)
 ![light-cover](https://github.com/ubuntpunk/rofi-vim/blob/main/src/rofi_vim/readme/Light-Cover.png)
 
-This project provides two helpers to access to **Vim commands** and **shortcuts** via an **interactive cheat sheet**
+This project provides two helpers to access to **Vim commands** and **shortcuts** via an **interactive cheat sheet**. Using the helpers may assist those wanting to learn more about Vim.
 
 
 ## Versions
