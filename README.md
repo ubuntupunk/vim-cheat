@@ -1,10 +1,12 @@
 # Vim Cheat Sheet | rofi / fzf launcher
 
-![dark-cover](https://github.com/ubuntupunk/vim-prompt/blob/main/src/vim_prompt/readme/Dark-Cover.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ubuntupunk/vim-prompt/blob/main/src/vim_prompt/readme/Dark-Cover.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ubuntupunk/vim-prompt/blob/main/src/vim_prompt/readme/Light-Cover.png">
+  <img alt="Vim Prompt Cover" src="https://github.com/ubuntupunk/vim-prompt/blob/main/src/vim_prompt/readme/Light-Cover.png">
+</picture>
 
-![light-cover](https://github.com/ubuntupunk/vim-prompt/blob/main/src/vim_prompt/readme/Light-Cover.png)
-
-This project provides two helpers to access to **Vim commands** and **shortcuts** via an **interactive cheat sheet**. Using the helpers may assist those wanting to learn more about Vim. This version is for posix systems that are able to install fzf/rofi, if you want the Windows version use [FlowLauncher Plugin VimCheatSheet](https://github.com/MoAlSeifi/Flow.Launcher.Plugin.VimCheatSheet)
+This project provides two helpers to access to **Vim commands** and **shortcuts** via an **interactive cheat sheet**. Using the helpers may assist those wanting to learn more about Vim. This version is for posix-compliant systems that are able to install fzf/rofi, if you want the Windows version use [FlowLauncher Plugin VimCheatSheet](https://github.com/MoAlSeifi/Flow.Launcher.Plugin.VimCheatSheet)
 
 ## Versions
 
