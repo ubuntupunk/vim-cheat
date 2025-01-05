@@ -42,7 +42,7 @@ There are two versions to suit different user preferences:
 
 ```python
 pip install vim-prompt
-
+```
 ### Install Helpers for Ubuntu/Debian
 
 ```bash
