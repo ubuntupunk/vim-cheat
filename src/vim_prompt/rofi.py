@@ -18,8 +18,8 @@ def load_vim_commands(file_path):
 
 vim_commands = load_vim_commands('db/commands.json')
 icon_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets", "icon.png") #PLEASE FIX
-print(f"Icon path: {icon_path}")  # Debug print
-print(f"Icon exists: {os.path.exists(icon_path)}")  # Verify file exists
+#print(f"Icon path: {icon_path}")  # Debug print
+#print(f"Icon exists: {os.path.exists(icon_path)}")  # Verify file exists
 
 def format_commands_for_rofi(commands):
     """Format commands for rofi."""

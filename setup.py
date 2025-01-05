@@ -6,9 +6,7 @@ setup(
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     include_package_data=True,
-    install_requires=[
-        "rofi-menu",
-    ],
+    install_requires=[],
     extras_require={
         "dev": [
             "pytest",

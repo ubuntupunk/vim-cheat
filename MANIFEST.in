@@ -1,0 +1,5 @@
+include LICENSE
+include README.md
+include pyproject.toml
+recursive-include src/vim_prompt/db *.json
+recursive-include src/vim_prompt/assets *

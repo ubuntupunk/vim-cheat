@@ -17,7 +17,8 @@ There are two versions to suit different user preferences:
 
 | Keyword        | Description                                                                    | Example     |
 | -------------- | ------------------------------------------------------------------------------ | ----------- |
-| ``vm {query}`` | Search for vim**commands** and **shortcuts** for a given `query` | `vm exit` |
+| `fzf-vim` | Search for vim**commands** and **shortcuts** for a given `query` | enter to open Vim Cheat Sheet |
+| `rofi-vim` | Search for vim**commands** and **shortcuts** for a given `query` | enter to open Vim Cheat Sheet |
 
 ## Features
 
@@ -33,6 +34,20 @@ There are two versions to suit different user preferences:
 * Download the [Latest Release](https://github.com/ubuntpunk/rofi-vim/releases/latest)
 * Extract the archive and copy the files to `~/.local/share/rofi-vim`
 
+### System requirements
+- Rofi
+- Fzf
+
+### Installation
+
+```python
+pip install vim-prompt
+
+### Install Helpers for Ubuntu/Debian
+
+```bash
+sudo apt install rofi fzf
+```
 
 ### Operation
 `fzf-vim`  `# Uses fzf interface`
