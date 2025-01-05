@@ -1,25 +1,19 @@
 #!/usr/bin/env python
 #This is the rofi_vim launcher script
+#copyright (c) 2024 Ubuntpunk
 
 import sys
 import os
 import json
 import subprocess
 import webbrowser
-
-def main():
-    """Main function."""
-    vim_commands = load_vim_commands('db/commands.json')
-    formatted_commands = format_commands_for_rofi(vim_commands)
-    selected_command_rofi = execute_rofi(formatted_commands)
-    if selected_command_rofi:
-        open_vim_command_url(selected_command_rofi)
-    else:
-        print("No command selected from rofi")
+import os
 
 def load_vim_commands(file_path):
     """Load Vim commands from a JSON file."""
-    with open(file_path, 'r') as file:
+    package_dir = os.path.dirname(os.path.abspath(__file__))
+    full_path = os.path.join(package_dir, 'db', 'commands.json')   
+    with open(full_path, 'r') as file:
         return json.load(file)
 
 vim_commands = load_vim_commands('db/commands.json')
@@ -64,7 +58,9 @@ def open_vim_command_url(selected_command):
     url = f"https://vim.rtorr.com/#:~:text={rtorr_description}"
     webbrowser.open(url)
 
-if __name__ == "__main__":
+def main():
+    """Main function."""
+    vim_commands = load_vim_commands('commands.json')
     formatted_commands = format_commands_for_rofi(vim_commands)
     selected_command_rofi = execute_rofi(formatted_commands)
     if selected_command_rofi:
