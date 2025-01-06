@@ -1,0 +1,208 @@
+{
+  "categories": {
+    "navigation": {
+      "name": "Navigation",
+      "patterns": [
+        "scroll",
+        "jump",
+        "goto",
+        "position"
+      ],
+      "subcategories": {
+        "cursor": {
+          "name": "Cursor Movement",
+          "patterns": [
+            "move[s]? cursor",
+            "^[hjkl]$",
+            "^[HJKL]$",
+            "^[wWeEbB]$"
+          ]
+        },
+        "tab": {
+          "name": "Tab Navigation",
+          "patterns": [
+            "tab",
+            "buffer",
+            "^:tab",
+            "^gt",
+            "^gT"
+          ]
+        }
+      }
+    },
+    "mode": {
+      "name": "Mode",
+      "subcategories": {
+        "visual_mode": {
+          "name": "Visual Mode",
+          "patterns": [
+            "visual",
+            "select",
+            "^v",
+            "^V",
+            "visual mode",
+            "selection"
+          ]
+        },
+        "insert_mode": {
+          "name": "Insert Mode",
+          "patterns": [
+            "insert mode",
+            "^i$",
+            "^I$",
+            "^a$",
+            "^A$",
+            "^o$",
+            "^O$"
+          ]
+        }
+      }
+    },
+    "operation": {
+      "name": "Operation",
+      "subcategories": {
+        "file": {
+          "name": "File Operations",
+          "patterns": [
+            "save",
+            "write",
+            "quit",
+            "exit",
+            "file",
+            "^:w",
+            "^:q",
+            "^ZZ"
+          ]
+        },
+        "diff": {
+          "name": "Diff Operations",
+          "patterns": [
+            "diff",
+            "merge",
+            "conflict",
+            "^:diffget",
+            "^:diffput",
+            "^do",
+            "^dp"
+          ]
+        }
+      }
+    },
+    "text_manipulation": {
+      "name": "Text Manipulation",
+      "patterns": [
+        "delete",
+        "change",
+        "replace",
+        "insert",
+        "yank",
+        "paste",
+        "indent",
+        "format",
+        "^[dycpr]"
+      ]
+    },
+  "paragraph": {
+  "name": "Paragraph Manipulation",
+  "patterns": [
+    "paragraph",
+    "^[\\{\\}]$",
+    "^\\[\\[$",
+    "^\\]\\]$",
+    "^ip$",
+    "^ap$"
+  ],
+  "subcategories": {
+    "formatting": {
+      "name": "Paragraph Formatting",
+      "patterns": [
+        "format paragraph",
+        "wrap",
+        "^gq",
+        "^gw"
+      ]
+    },
+    "movement": {
+      "name": "Paragraph Movement",
+      "patterns": [
+        "move[s]? paragraph",
+        "^\\{$",
+        "^\\}$",
+        "^\\[\\[$",
+        "^\\]\\]$"
+      ]
+    }
+  }
+  },
+    "search_replace": {
+      "name": "Search and Replace",
+      "patterns": [
+        "search",
+        "find",
+        "replace",
+        "substitute",
+        "^/",
+        "^\\?",
+        "^:%s"
+      ]
+    },
+    "split": {
+      "name": "Window Split",
+      "patterns": [
+        "split",
+        "window",
+        "pane",
+        "^:sp",
+        "^:vsp"
+      ]
+    },
+    "terminal": {
+      "name": "Terminal",
+      "patterns": [
+        "terminal",
+        "shell",
+        "^:term"
+      ]
+    },
+    "help": {
+      "name": "Help",
+      "patterns": [
+        "help",
+        "manual",
+        "^:h",
+        "^K"
+      ]
+    },
+    "marks": {
+      "name": "Marks",
+      "patterns": [
+        "mark",
+        "bookmark",
+        "^m",
+        "^'"
+      ]
+    },
+    "registers": {
+      "name": "Registers",
+      "patterns": [
+        "register",
+        "clipboard",
+        "^\"",
+        "yank",
+        "paste"
+      ]
+    },
+    "macros": {
+      "name": "Macros",
+      "patterns": [
+        "macro",
+        "record",
+        "^q",
+        "^@"
+      ]
+    },
+  "uncategorized": {
+    "name": "Uncategorized",
+    "patterns": []
+    }
+}

@@ -1,0 +1,1544 @@
+{
+  "command_mappings": {
+    ":h[elp] keyword": {
+      "canonical_description": "Opens the help page for the specified keyword in Vim.",
+      "aliases": [
+        "Opens the help page for the specified keyword in Vim."
+      ],
+      "category": "uncategorized"
+    },
+    ":sav[eas] file": {
+      "canonical_description": "Saves the current file with the specified file name.",
+      "aliases": [
+        "Saves the current file with the specified file name."
+      ],
+      "category": "uncategorized"
+    },
+    ":clo[se]": {
+      "canonical_description": "Closes the current pane in Vim.",
+      "aliases": [
+        "Closes the current pane in Vim."
+      ],
+      "category": "uncategorized"
+    },
+    ":ter[minal]": {
+      "canonical_description": "Opens a terminal window within Vim.",
+      "aliases": [
+        "Opens a terminal window within Vim."
+      ],
+      "category": "uncategorized"
+    },
+    "K": {
+      "canonical_description": "Opens the man page for the word currently under the cursor.",
+      "aliases": [
+        "Opens the man page for the word currently under the cursor."
+      ],
+      "category": "uncategorized"
+    },
+    "h": {
+      "canonical_description": "Moves the cursor one character to the left.",
+      "aliases": [
+        "Moves the cursor one character to the left."
+      ],
+      "category": "uncategorized"
+    },
+    "j": {
+      "canonical_description": "Moves the cursor one line down.",
+      "aliases": [
+        "Moves the cursor one line down."
+      ],
+      "category": "uncategorized"
+    },
+    "k": {
+      "canonical_description": "Moves the cursor one line up.",
+      "aliases": [
+        "Moves the cursor one line up."
+      ],
+      "category": "uncategorized"
+    },
+    "l": {
+      "canonical_description": "Moves the cursor one character to the right.",
+      "aliases": [
+        "Moves the cursor one character to the right."
+      ],
+      "category": "uncategorized"
+    },
+    "gj": {
+      "canonical_description": "Moves the cursor down one line, considering wrapped lines as a single line.",
+      "aliases": [
+        "Moves the cursor down one line, considering wrapped lines as a single line."
+      ],
+      "category": "uncategorized"
+    },
+    "gk": {
+      "canonical_description": "Moves the cursor up one line, considering wrapped lines as a single line.",
+      "aliases": [
+        "Moves the cursor up one line, considering wrapped lines as a single line."
+      ],
+      "category": "uncategorized"
+    },
+    "H": {
+      "canonical_description": "Moves the cursor to the top of the screen.",
+      "aliases": [
+        "Moves the cursor to the top of the screen."
+      ],
+      "category": "uncategorized"
+    },
+    "M": {
+      "canonical_description": "Moves the cursor to the middle of the screen.",
+      "aliases": [
+        "Moves the cursor to the middle of the screen."
+      ],
+      "category": "uncategorized"
+    },
+    "L": {
+      "canonical_description": "Moves the cursor to the bottom of the screen.",
+      "aliases": [
+        "Moves the cursor to the bottom of the screen."
+      ],
+      "category": "uncategorized"
+    },
+    "w": {
+      "canonical_description": "Moves the cursor forward to the beginning of the next word.",
+      "aliases": [
+        "Moves the cursor forward to the beginning of the next word."
+      ],
+      "category": "uncategorized"
+    },
+    "W": {
+      "canonical_description": "Moves the cursor forward to the beginning of the next word, considering punctuation as part of the word.",
+      "aliases": [
+        "Moves the cursor forward to the beginning of the next word, considering punctuation as part of the word."
+      ],
+      "category": "uncategorized"
+    },
+    "e": {
+      "canonical_description": "Moves the cursor forward to the end of the current word.",
+      "aliases": [
+        "Moves the cursor forward to the end of the current word."
+      ],
+      "category": "uncategorized"
+    },
+    "E": {
+      "canonical_description": "Moves the cursor forward to the end of the current word, considering punctuation as part of the word.",
+      "aliases": [
+        "Moves the cursor forward to the end of the current word, considering punctuation as part of the word."
+      ],
+      "category": "uncategorized"
+    },
+    "b": {
+      "canonical_description": "Moves the cursor backward to the beginning of the previous word.",
+      "aliases": [
+        "Moves the cursor backward to the beginning of the previous word."
+      ],
+      "category": "uncategorized"
+    },
+    "B": {
+      "canonical_description": "Moves the cursor backward to the beginning of the previous word, considering punctuation as part of the word.",
+      "aliases": [
+        "Moves the cursor backward to the beginning of the previous word, considering punctuation as part of the word."
+      ],
+      "category": "uncategorized"
+    },
+    "ge": {
+      "canonical_description": "Moves the cursor backward to the end of the previous word.",
+      "aliases": [
+        "Moves the cursor backward to the end of the previous word."
+      ],
+      "category": "uncategorized"
+    },
+    "gE": {
+      "canonical_description": "Moves the cursor backward to the end of the previous word, considering punctuation as part of the word.",
+      "aliases": [
+        "Moves the cursor backward to the end of the previous word, considering punctuation as part of the word."
+      ],
+      "category": "uncategorized"
+    },
+    "%": {
+      "canonical_description": "Moves the cursor to the matching character of a pair, such as parentheses, brackets, or braces. Use :h matchpairs in Vim for more information on supported pairs.",
+      "aliases": [
+        "Moves the cursor to the matching character of a pair, such as parentheses, brackets, or braces. Use :h matchpairs in Vim for more information on supported pairs."
+      ],
+      "category": "uncategorized"
+    },
+    "0": {
+      "canonical_description": "Moves the cursor to the very beginning of the current line.",
+      "aliases": [
+        "Moves the cursor to the very beginning of the current line."
+      ],
+      "category": "uncategorized"
+    },
+    "^": {
+      "canonical_description": "Moves the cursor to the first non-blank character on the current line.",
+      "aliases": [
+        "Moves the cursor to the first non-blank character on the current line."
+      ],
+      "category": "uncategorized"
+    },
+    "$": {
+      "canonical_description": "Moves the cursor to the end of the current line.",
+      "aliases": [
+        "Moves the cursor to the end of the current line."
+      ],
+      "category": "uncategorized"
+    },
+    "g_": {
+      "canonical_description": "Moves the cursor to the last non-blank character on the current line.",
+      "aliases": [
+        "Moves the cursor to the last non-blank character on the current line."
+      ],
+      "category": "uncategorized"
+    },
+    "gg": {
+      "canonical_description": "Moves the cursor to the first line of the document.",
+      "aliases": [
+        "Moves the cursor to the first line of the document."
+      ],
+      "category": "uncategorized"
+    },
+    "G": {
+      "canonical_description": "Moves the cursor to the last line of the document.",
+      "aliases": [
+        "Moves the cursor to the last line of the document."
+      ],
+      "category": "uncategorized"
+    },
+    "5gg or 5G": {
+      "canonical_description": "Moves the cursor to line number 5 in the document.",
+      "aliases": [
+        "Moves the cursor to line number 5 in the document."
+      ],
+      "category": "uncategorized"
+    },
+    "gd": {
+      "canonical_description": "Moves the cursor to the local declaration of the variable under the cursor (useful for code editing).",
+      "aliases": [
+        "Moves the cursor to the local declaration of the variable under the cursor (useful for code editing)."
+      ],
+      "category": "uncategorized"
+    },
+    "gD": {
+      "canonical_description": "Moves the cursor to the global declaration of the variable under the cursor (useful for code editing).",
+      "aliases": [
+        "Moves the cursor to the global declaration of the variable under the cursor (useful for code editing)."
+      ],
+      "category": "uncategorized"
+    },
+    "fx": {
+      "canonical_description": "Moves the cursor to the next occurrence of character 'x' on the current line.",
+      "aliases": [
+        "Moves the cursor to the next occurrence of character 'x' on the current line."
+      ],
+      "category": "uncategorized"
+    },
+    "tx": {
+      "canonical_description": "Moves the cursor to the position before the next occurrence of character 'x' on the current line.",
+      "aliases": [
+        "Moves the cursor to the position before the next occurrence of character 'x' on the current line."
+      ],
+      "category": "uncategorized"
+    },
+    "Fx": {
+      "canonical_description": "Moves the cursor to the previous occurrence of character 'x' on the current line.",
+      "aliases": [
+        "Moves the cursor to the previous occurrence of character 'x' on the current line."
+      ],
+      "category": "uncategorized"
+    },
+    "Tx": {
+      "canonical_description": "Moves the cursor to the position after the previous occurrence of character 'x' on the current line.",
+      "aliases": [
+        "Moves the cursor to the position after the previous occurrence of character 'x' on the current line."
+      ],
+      "category": "uncategorized"
+    },
+    ";": {
+      "canonical_description": "Repeats the previous f, t, F, or T cursor movement command in the same direction.",
+      "aliases": [
+        "Repeats the previous f, t, F, or T cursor movement command in the same direction."
+      ],
+      "category": "uncategorized"
+    },
+    ",": {
+      "canonical_description": "Repeats the previous f, t, F, or T cursor movement command in the opposite direction.",
+      "aliases": [
+        "Repeats the previous f, t, F, or T cursor movement command in the opposite direction."
+      ],
+      "category": "uncategorized"
+    },
+    "}": {
+      "canonical_description": "Moves the cursor to the beginning of the next paragraph. When editing code, it moves to the next function or block.",
+      "aliases": [
+        "Moves the cursor to the beginning of the next paragraph. When editing code, it moves to the next function or block."
+      ],
+      "category": "uncategorized"
+    },
+    "{": {
+      "canonical_description": "Moves the cursor to the beginning of the previous paragraph. When editing code, it moves to the previous function or block.",
+      "aliases": [
+        "Moves the cursor to the beginning of the previous paragraph. When editing code, it moves to the previous function or block."
+      ],
+      "category": "uncategorized"
+    },
+    "zz": {
+      "canonical_description": "Centers the cursor vertically on the screen.",
+      "aliases": [
+        "Centers the cursor vertically on the screen."
+      ],
+      "category": "uncategorized"
+    },
+    "zt": {
+      "canonical_description": "Positions the cursor at the top of the screen.",
+      "aliases": [
+        "Positions the cursor at the top of the screen."
+      ],
+      "category": "uncategorized"
+    },
+    "zb": {
+      "canonical_description": "Positions the cursor at the bottom of the screen.",
+      "aliases": [
+        "Positions the cursor at the bottom of the screen."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + e": {
+      "canonical_description": "Scrolls the screen down one line without moving the cursor.",
+      "aliases": [
+        "Scrolls the screen down one line without moving the cursor."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + y": {
+      "canonical_description": "Scrolls the screen up one line without moving the cursor.",
+      "aliases": [
+        "Scrolls the screen up one line without moving the cursor."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + b": {
+      "canonical_description": "Scrolls the screen up one page and moves the cursor to the last line of the new page.",
+      "aliases": [
+        "Scrolls the screen up one page and moves the cursor to the last line of the new page."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + f": {
+      "canonical_description": "Scrolls the screen down one page and moves the cursor to the first line of the new page.",
+      "aliases": [
+        "Scrolls the screen down one page and moves the cursor to the first line of the new page."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + d": {
+      "canonical_description": "De-indents the current line one shiftwidth to the left while in insert mode.",
+      "aliases": [
+        "De-indents the current line one shiftwidth to the left while in insert mode."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + u": {
+      "canonical_description": "Scrolls the screen up half a page and moves the cursor accordingly.",
+      "aliases": [
+        "Scrolls the screen up half a page and moves the cursor accordingly."
+      ],
+      "category": "uncategorized"
+    },
+    "i": {
+      "canonical_description": "Enters insert mode and starts inserting text before the cursor position.",
+      "aliases": [
+        "Enters insert mode and starts inserting text before the cursor position."
+      ],
+      "category": "uncategorized"
+    },
+    "I": {
+      "canonical_description": "Enters insert mode and starts inserting text at the beginning of the current line.",
+      "aliases": [
+        "Enters insert mode and starts inserting text at the beginning of the current line."
+      ],
+      "category": "uncategorized"
+    },
+    "a": {
+      "canonical_description": "Enters insert mode and starts inserting text after the cursor position.",
+      "aliases": [
+        "Enters insert mode and starts inserting text after the cursor position."
+      ],
+      "category": "uncategorized"
+    },
+    "A": {
+      "canonical_description": "Enters insert mode and starts inserting text at the end of the current line.",
+      "aliases": [
+        "Enters insert mode and starts inserting text at the end of the current line."
+      ],
+      "category": "uncategorized"
+    },
+    "o": {
+      "canonical_description": "While in visual mode, this command moves the cursor to the opposite end of the currently selected area.",
+      "aliases": [
+        "While in visual mode, this command moves the cursor to the opposite end of the currently selected area."
+      ],
+      "category": "uncategorized"
+    },
+    "O": {
+      "canonical_description": "While in visual block mode, this command moves the cursor to the opposite corner of the selected block.",
+      "aliases": [
+        "While in visual block mode, this command moves the cursor to the opposite corner of the selected block."
+      ],
+      "category": "uncategorized"
+    },
+    "ea": {
+      "canonical_description": "Moves the cursor to the end of the current word and enters insert mode.",
+      "aliases": [
+        "Moves the cursor to the end of the current word and enters insert mode."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + h": {
+      "canonical_description": "Deletes the character before the cursor while in insert mode.",
+      "aliases": [
+        "Deletes the character before the cursor while in insert mode."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + w": {
+      "canonical_description": "Deletes the word before the cursor while in insert mode.",
+      "aliases": [
+        "Deletes the word before the cursor while in insert mode."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + j": {
+      "canonical_description": "Inserts a line break at the current cursor position while in insert mode.",
+      "aliases": [
+        "Inserts a line break at the current cursor position while in insert mode."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + t": {
+      "canonical_description": "Indents the current line one shiftwidth to the right while in insert mode.",
+      "aliases": [
+        "Indents the current line one shiftwidth to the right while in insert mode."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + n": {
+      "canonical_description": "Inserts the next matching completion before the cursor while in insert mode.",
+      "aliases": [
+        "Inserts the next matching completion before the cursor while in insert mode."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + p": {
+      "canonical_description": "Inserts the previous matching completion before the cursor while in insert mode.",
+      "aliases": [
+        "Inserts the previous matching completion before the cursor while in insert mode."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + rx": {
+      "canonical_description": "Inserts the contents of register 'x' at the cursor position.",
+      "aliases": [
+        "Inserts the contents of register 'x' at the cursor position."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + ox": {
+      "canonical_description": "Temporarily switches to normal mode from insert mode to execute a single normal mode command 'x'. After executing the command, it returns to insert mode.",
+      "aliases": [
+        "Temporarily switches to normal mode from insert mode to execute a single normal mode command 'x'. After executing the command, it returns to insert mode."
+      ],
+      "category": "uncategorized"
+    },
+    "Esc or Ctrl + c": {
+      "canonical_description": "Exits visual mode.",
+      "aliases": [
+        "Exits visual mode."
+      ],
+      "category": "uncategorized"
+    },
+    "r": {
+      "canonical_description": "Replaces the character under the cursor with the next character typed.",
+      "aliases": [
+        "Replaces the character under the cursor with the next character typed."
+      ],
+      "category": "uncategorized"
+    },
+    "R": {
+      "canonical_description": "Enters replace mode, allowing you to replace multiple characters until the ESC key is pressed.",
+      "aliases": [
+        "Enters replace mode, allowing you to replace multiple characters until the ESC key is pressed."
+      ],
+      "category": "uncategorized"
+    },
+    "J": {
+      "canonical_description": "Joins the line below the current line to the end of the current line, adding a single space in between.",
+      "aliases": [
+        "Joins the line below the current line to the end of the current line, adding a single space in between."
+      ],
+      "category": "uncategorized"
+    },
+    "gJ": {
+      "canonical_description": "Joins the line below the current line to the end of the current line without adding any space.",
+      "aliases": [
+        "Joins the line below the current line to the end of the current line without adding any space."
+      ],
+      "category": "uncategorized"
+    },
+    "gwip": {
+      "canonical_description": "Reflows the current paragraph, adjusting line breaks to fit within the current window width.",
+      "aliases": [
+        "Reflows the current paragraph, adjusting line breaks to fit within the current window width."
+      ],
+      "category": "uncategorized"
+    },
+    "g~": {
+      "canonical_description": "Switches the case of characters (uppercase to lowercase or vice versa) from the cursor position to the end of the specified motion.",
+      "aliases": [
+        "Switches the case of characters (uppercase to lowercase or vice versa) from the cursor position to the end of the specified motion."
+      ],
+      "category": "uncategorized"
+    },
+    "gu": {
+      "canonical_description": "Changes the characters from the cursor position to the end of the specified motion to lowercase.",
+      "aliases": [
+        "Changes the characters from the cursor position to the end of the specified motion to lowercase."
+      ],
+      "category": "uncategorized"
+    },
+    "gU": {
+      "canonical_description": "Changes text to uppercase up to the specified motion.",
+      "aliases": [
+        "Changes text to uppercase up to the specified motion."
+      ],
+      "category": "uncategorized"
+    },
+    "cc": {
+      "canonical_description": "Replaces the content of the entire current line.",
+      "aliases": [
+        "Replaces the content of the entire current line."
+      ],
+      "category": "uncategorized"
+    },
+    "c$ or C": {
+      "canonical_description": "Replaces text from the cursor position to the end of the current line.",
+      "aliases": [
+        "Replaces text from the cursor position to the end of the current line."
+      ],
+      "category": "uncategorized"
+    },
+    "ciw": {
+      "canonical_description": "Replaces the entire word under the cursor.",
+      "aliases": [
+        "Replaces the entire word under the cursor."
+      ],
+      "category": "uncategorized"
+    },
+    "cw or ce": {
+      "canonical_description": "Replaces text from the cursor position to the end of the current word.",
+      "aliases": [
+        "Replaces text from the cursor position to the end of the current word."
+      ],
+      "category": "uncategorized"
+    },
+    "s": {
+      "canonical_description": "Deletes the character under the cursor and enters insert mode to allow substitution of text (same as cl).",
+      "aliases": [
+        "Deletes the character under the cursor and enters insert mode to allow substitution of text (same as cl)."
+      ],
+      "category": "uncategorized"
+    },
+    "S": {
+      "canonical_description": "Deletes the entire line and enters insert mode to allow substitution of text (same as cc).",
+      "aliases": [
+        "Deletes the entire line and enters insert mode to allow substitution of text (same as cc)."
+      ],
+      "category": "uncategorized"
+    },
+    "xp": {
+      "canonical_description": "Transposes the character under the cursor with the character to its right (effectively deleting and pasting).",
+      "aliases": [
+        "Transposes the character under the cursor with the character to its right (effectively deleting and pasting)."
+      ],
+      "category": "uncategorized"
+    },
+    "u": {
+      "canonical_description": "In visual mode, changes the selected text to lowercase.",
+      "aliases": [
+        "In visual mode, changes the selected text to lowercase."
+      ],
+      "category": "uncategorized"
+    },
+    "U": {
+      "canonical_description": "In visual mode, changes the selected text to uppercase.",
+      "aliases": [
+        "In visual mode, changes the selected text to uppercase."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + r": {
+      "canonical_description": "Redoes a previously undone change.",
+      "aliases": [
+        "Redoes a previously undone change."
+      ],
+      "category": "uncategorized"
+    },
+    ".": {
+      "canonical_description": "Repeats the last executed command.",
+      "aliases": [
+        "Repeats the last executed command."
+      ],
+      "category": "uncategorized"
+    },
+    "v": {
+      "canonical_description": "Starts visual mode, allowing you to select text by moving the cursor. Once text is selected, you can perform various commands on it (like yanking/copying).",
+      "aliases": [
+        "Starts visual mode, allowing you to select text by moving the cursor. Once text is selected, you can perform various commands on it (like yanking/copying)."
+      ],
+      "category": "uncategorized"
+    },
+    "V": {
+      "canonical_description": "Starts linewise visual mode, which allows you to select entire lines by moving the cursor.",
+      "aliases": [
+        "Starts linewise visual mode, which allows you to select entire lines by moving the cursor."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + v": {
+      "canonical_description": "Starts visual block mode, allowing you to select a rectangular block of text.",
+      "aliases": [
+        "Starts visual block mode, allowing you to select a rectangular block of text."
+      ],
+      "category": "uncategorized"
+    },
+    "aw": {
+      "canonical_description": "In visual mode, selects the current word.",
+      "aliases": [
+        "In visual mode, selects the current word."
+      ],
+      "category": "uncategorized"
+    },
+    "ab": {
+      "canonical_description": "In visual mode, selects a block of text enclosed by parentheses ().",
+      "aliases": [
+        "In visual mode, selects a block of text enclosed by parentheses ()."
+      ],
+      "category": "uncategorized"
+    },
+    "aB": {
+      "canonical_description": "In visual mode, selects a block of text enclosed by curly braces {}.",
+      "aliases": [
+        "In visual mode, selects a block of text enclosed by curly braces {}."
+      ],
+      "category": "uncategorized"
+    },
+    "at": {
+      "canonical_description": "In visual mode, selects a block of text enclosed by angle brackets <> (often used for tags).",
+      "aliases": [
+        "In visual mode, selects a block of text enclosed by angle brackets <> (often used for tags)."
+      ],
+      "category": "uncategorized"
+    },
+    "ib": {
+      "canonical_description": "In visual mode, selects the text within the nearest enclosing parentheses ().",
+      "aliases": [
+        "In visual mode, selects the text within the nearest enclosing parentheses ()."
+      ],
+      "category": "uncategorized"
+    },
+    "iB": {
+      "canonical_description": "In visual mode, selects the text within the nearest enclosing curly braces {}.",
+      "aliases": [
+        "In visual mode, selects the text within the nearest enclosing curly braces {}."
+      ],
+      "category": "uncategorized"
+    },
+    "it": {
+      "canonical_description": "In visual mode, selects the text within the nearest enclosing angle brackets <> (often used for tags).",
+      "aliases": [
+        "In visual mode, selects the text within the nearest enclosing angle brackets <> (often used for tags)."
+      ],
+      "category": "uncategorized"
+    },
+    ">": {
+      "canonical_description": "In visual mode, shifts the selected text one indentation level to the right.",
+      "aliases": [
+        "In visual mode, shifts the selected text one indentation level to the right."
+      ],
+      "category": "uncategorized"
+    },
+    "<": {
+      "canonical_description": "In visual mode, shifts the selected text one indentation level to the left.",
+      "aliases": [
+        "In visual mode, shifts the selected text one indentation level to the left."
+      ],
+      "category": "uncategorized"
+    },
+    "y": {
+      "canonical_description": "In visual mode, copies (yanks) the selected text into the clipboard.",
+      "aliases": [
+        "In visual mode, copies (yanks) the selected text into the clipboard."
+      ],
+      "category": "uncategorized"
+    },
+    "d": {
+      "canonical_description": "In visual mode, deletes the selected text.",
+      "aliases": [
+        "In visual mode, deletes the selected text."
+      ],
+      "category": "uncategorized"
+    },
+    "~": {
+      "canonical_description": "In visual mode, switches the case (uppercase/lowercase) of the selected text.",
+      "aliases": [
+        "In visual mode, switches the case (uppercase/lowercase) of the selected text."
+      ],
+      "category": "uncategorized"
+    },
+    ":reg[isters]": {
+      "canonical_description": "Displays the contents of all registers.",
+      "aliases": [
+        "Displays the contents of all registers."
+      ],
+      "category": "uncategorized"
+    },
+    "\"xy": {
+      "canonical_description": "Copies (yanks) the selected text into the specified register x.",
+      "aliases": [
+        "Copies (yanks) the selected text into the specified register x."
+      ],
+      "category": "uncategorized"
+    },
+    "\"xp": {
+      "canonical_description": "Pastes the contents of the specified register x.",
+      "aliases": [
+        "Pastes the contents of the specified register x."
+      ],
+      "category": "uncategorized"
+    },
+    "\"+y": {
+      "canonical_description": "Copies (yanks) the selected text into the system clipboard.",
+      "aliases": [
+        "Copies (yanks) the selected text into the system clipboard."
+      ],
+      "category": "uncategorized"
+    },
+    "\"+p": {
+      "canonical_description": "Pastes the contents of the system clipboard.",
+      "aliases": [
+        "Pastes the contents of the system clipboard."
+      ],
+      "category": "uncategorized"
+    },
+    ":marks": {
+      "canonical_description": "Displays a list of all saved marks.",
+      "aliases": [
+        "Displays a list of all saved marks."
+      ],
+      "category": "uncategorized"
+    },
+    "ma": {
+      "canonical_description": "Sets the current cursor position as mark A. You can use any letter for the mark name.",
+      "aliases": [
+        "Sets the current cursor position as mark A. You can use any letter for the mark name."
+      ],
+      "category": "uncategorized"
+    },
+    "`a": {
+      "canonical_description": "Moves the cursor to the position marked as A.",
+      "aliases": [
+        "Moves the cursor to the position marked as A."
+      ],
+      "category": "uncategorized"
+    },
+    "y`a": {
+      "canonical_description": "Copies (yanks) the selected text and places it at the position marked as A.",
+      "aliases": [
+        "Copies (yanks) the selected text and places it at the position marked as A."
+      ],
+      "category": "uncategorized"
+    },
+    "`0": {
+      "canonical_description": "Moves the cursor to the position where Vim was last exited.",
+      "aliases": [
+        "Moves the cursor to the position where Vim was last exited."
+      ],
+      "category": "uncategorized"
+    },
+    "'\"": {
+      "canonical_description": "Moves the cursor to the position when you last edited this file.",
+      "aliases": [
+        "Moves the cursor to the position when you last edited this file."
+      ],
+      "category": "uncategorized"
+    },
+    "`.`": {
+      "canonical_description": "Moves the cursor to the position of the last change in this file.",
+      "aliases": [
+        "Moves the cursor to the position of the last change in this file."
+      ],
+      "category": "uncategorized"
+    },
+    "``": {
+      "canonical_description": "Moves the cursor to the position before the last jump.",
+      "aliases": [
+        "Moves the cursor to the position before the last jump."
+      ],
+      "category": "uncategorized"
+    },
+    ":ju[mps]": {
+      "canonical_description": "Displays a list of all recent jumps.",
+      "aliases": [
+        "Displays a list of all recent jumps."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + i": {
+      "canonical_description": "Moves the cursor to the next newer position in the jump list.",
+      "aliases": [
+        "Moves the cursor to the next newer position in the jump list."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + o": {
+      "canonical_description": "Moves the cursor to the next older position in the jump list.",
+      "aliases": [
+        "Moves the cursor to the next older position in the jump list."
+      ],
+      "category": "uncategorized"
+    },
+    ":changes": {
+      "canonical_description": "Displays a list of all recent changes made in the buffer.",
+      "aliases": [
+        "Displays a list of all recent changes made in the buffer."
+      ],
+      "category": "uncategorized"
+    },
+    "g,": {
+      "canonical_description": "Moves the cursor to the next newer position in the change list.",
+      "aliases": [
+        "Moves the cursor to the next newer position in the change list."
+      ],
+      "category": "uncategorized"
+    },
+    "g;": {
+      "canonical_description": "Moves the cursor to the next older position in the change list.",
+      "aliases": [
+        "Moves the cursor to the next older position in the change list."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + ]": {
+      "canonical_description": "Jumps to the definition of the tag under the cursor.",
+      "aliases": [
+        "Jumps to the definition of the tag under the cursor."
+      ],
+      "category": "uncategorized"
+    },
+    "qa": {
+      "canonical_description": "Starts recording a macro and saves it in register 'a'.",
+      "aliases": [
+        "Starts recording a macro and saves it in register 'a'."
+      ],
+      "category": "uncategorized"
+    },
+    "q": {
+      "canonical_description": "Stops recording the current macro.",
+      "aliases": [
+        "Stops recording the current macro."
+      ],
+      "category": "uncategorized"
+    },
+    "@a": {
+      "canonical_description": "Executes the macro stored in register 'a'.",
+      "aliases": [
+        "Executes the macro stored in register 'a'."
+      ],
+      "category": "uncategorized"
+    },
+    "@@": {
+      "canonical_description": "Repeats the last executed macro.",
+      "aliases": [
+        "Repeats the last executed macro."
+      ],
+      "category": "uncategorized"
+    },
+    "yy": {
+      "canonical_description": "Copies the current line into the default register (\").",
+      "aliases": [
+        "Copies the current line into the default register (\")."
+      ],
+      "category": "uncategorized"
+    },
+    "2yy": {
+      "canonical_description": "Copies the current line and the next line into the default register (\").",
+      "aliases": [
+        "Copies the current line and the next line into the default register (\")."
+      ],
+      "category": "uncategorized"
+    },
+    "yw": {
+      "canonical_description": "Copies the characters of the word from the cursor position to the start of the next word into the default register (\").",
+      "aliases": [
+        "Copies the characters of the word from the cursor position to the start of the next word into the default register (\")."
+      ],
+      "category": "uncategorized"
+    },
+    "yiw": {
+      "canonical_description": "Copies the word under the cursor into the default register (\").",
+      "aliases": [
+        "Copies the word under the cursor into the default register (\")."
+      ],
+      "category": "uncategorized"
+    },
+    "yaw": {
+      "canonical_description": "Copies the word under the cursor and the space after or before it into the default register (\").",
+      "aliases": [
+        "Copies the word under the cursor and the space after or before it into the default register (\")."
+      ],
+      "category": "uncategorized"
+    },
+    "y$ or Y": {
+      "canonical_description": "Copies the characters from the cursor position to the end of the line into the default register (\").",
+      "aliases": [
+        "Copies the characters from the cursor position to the end of the line into the default register (\")."
+      ],
+      "category": "uncategorized"
+    },
+    "p": {
+      "canonical_description": "Pastes the contents of the default register (\") after the cursor.",
+      "aliases": [
+        "Pastes the contents of the default register (\") after the cursor."
+      ],
+      "category": "uncategorized"
+    },
+    "P": {
+      "canonical_description": "Pastes the contents of the default register (\") before the cursor.",
+      "aliases": [
+        "Pastes the contents of the default register (\") before the cursor."
+      ],
+      "category": "uncategorized"
+    },
+    "gp": {
+      "canonical_description": "Pastes the contents of the default register (\") after the cursor and leaves the cursor after the new text.",
+      "aliases": [
+        "Pastes the contents of the default register (\") after the cursor and leaves the cursor after the new text."
+      ],
+      "category": "uncategorized"
+    },
+    "gP": {
+      "canonical_description": "Pastes the contents of the default register (\") before the cursor and leaves the cursor after the new text.",
+      "aliases": [
+        "Pastes the contents of the default register (\") before the cursor and leaves the cursor after the new text."
+      ],
+      "category": "uncategorized"
+    },
+    "dd": {
+      "canonical_description": "Deletes the current line and places it in the default register (\").",
+      "aliases": [
+        "Deletes the current line and places it in the default register (\")."
+      ],
+      "category": "uncategorized"
+    },
+    "2dd": {
+      "canonical_description": "Deletes the current line and the next line and places them in the default register (\").",
+      "aliases": [
+        "Deletes the current line and the next line and places them in the default register (\")."
+      ],
+      "category": "uncategorized"
+    },
+    "dw": {
+      "canonical_description": "Deletes the characters of the word from the cursor position to the start of the next word and places them in the default register (\").",
+      "aliases": [
+        "Deletes the characters of the word from the cursor position to the start of the next word and places them in the default register (\")."
+      ],
+      "category": "uncategorized"
+    },
+    "diw": {
+      "canonical_description": "Deletes the word under the cursor and places it in the default register (\").",
+      "aliases": [
+        "Deletes the word under the cursor and places it in the default register (\")."
+      ],
+      "category": "uncategorized"
+    },
+    "daw": {
+      "canonical_description": "Deletes the word under the cursor and the space after or before it and places it in the default register (\").",
+      "aliases": [
+        "Deletes the word under the cursor and the space after or before it and places it in the default register (\")."
+      ],
+      "category": "uncategorized"
+    },
+    ":3,5d": {
+      "canonical_description": "Deletes lines 3 through 5.",
+      "aliases": [
+        "Deletes lines 3 through 5."
+      ],
+      "category": "uncategorized"
+    },
+    "d$ or D": {
+      "canonical_description": "Deletes the characters from the cursor position to the end of the line and places them in the default register (\").",
+      "aliases": [
+        "Deletes the characters from the cursor position to the end of the line and places them in the default register (\")."
+      ],
+      "category": "uncategorized"
+    },
+    "x": {
+      "canonical_description": "Deletes the character under the cursor and places it in the default register (\").",
+      "aliases": [
+        "Deletes the character under the cursor and places it in the default register (\")."
+      ],
+      "category": "uncategorized"
+    },
+    ">>": {
+      "canonical_description": "Indents the current line one shiftwidth to the right.",
+      "aliases": [
+        "Indents the current line one shiftwidth to the right."
+      ],
+      "category": "uncategorized"
+    },
+    "<<": {
+      "canonical_description": "De-indents the current line one shiftwidth to the left.",
+      "aliases": [
+        "De-indents the current line one shiftwidth to the left."
+      ],
+      "category": "uncategorized"
+    },
+    ">%": {
+      "canonical_description": "Indents a block enclosed by parentheses () or curly brackets {}, with the cursor positioned on the opening or closing brace.",
+      "aliases": [
+        "Indents a block enclosed by parentheses () or curly brackets {}, with the cursor positioned on the opening or closing brace."
+      ],
+      "category": "uncategorized"
+    },
+    "<%": {
+      "canonical_description": "De-indents a block enclosed by parentheses () or curly brackets {}, with the cursor positioned on the opening or closing brace.",
+      "aliases": [
+        "De-indents a block enclosed by parentheses () or curly brackets {}, with the cursor positioned on the opening or closing brace."
+      ],
+      "category": "uncategorized"
+    },
+    ">ib": {
+      "canonical_description": "Indents the inner block enclosed by parentheses ().",
+      "aliases": [
+        "Indents the inner block enclosed by parentheses ()."
+      ],
+      "category": "uncategorized"
+    },
+    ">at": {
+      "canonical_description": "Indents a block enclosed by angle brackets <> (tags).",
+      "aliases": [
+        "Indents a block enclosed by angle brackets <> (tags)."
+      ],
+      "category": "uncategorized"
+    },
+    "3==": {
+      "canonical_description": "Re-indents the current line and the two lines below it.",
+      "aliases": [
+        "Re-indents the current line and the two lines below it."
+      ],
+      "category": "uncategorized"
+    },
+    "=%": {
+      "canonical_description": "Re-indents a block enclosed by parentheses () or curly brackets {}, with the cursor positioned on the opening or closing brace.",
+      "aliases": [
+        "Re-indents a block enclosed by parentheses () or curly brackets {}, with the cursor positioned on the opening or closing brace."
+      ],
+      "category": "uncategorized"
+    },
+    "=iB": {
+      "canonical_description": "Re-indents the inner block enclosed by curly brackets {}.",
+      "aliases": [
+        "Re-indents the inner block enclosed by curly brackets {}."
+      ],
+      "category": "uncategorized"
+    },
+    "gg=G": {
+      "canonical_description": "Re-indents the entire buffer (all lines in the current file).",
+      "aliases": [
+        "Re-indents the entire buffer (all lines in the current file)."
+      ],
+      "category": "uncategorized"
+    },
+    "]p": {
+      "canonical_description": "Pastes the contents of the default register (\") and adjusts the indentation to match the current line.",
+      "aliases": [
+        "Pastes the contents of the default register (\") and adjusts the indentation to match the current line."
+      ],
+      "category": "uncategorized"
+    },
+    ":w": {
+      "canonical_description": "Saves the current file without exiting Vim.",
+      "aliases": [
+        "Saves the current file without exiting Vim."
+      ],
+      "category": "uncategorized"
+    },
+    ":w !sudo tee %": {
+      "canonical_description": "Saves the current file using sudo (superuser privileges). This is useful when you don't have write permissions to the file.",
+      "aliases": [
+        "Saves the current file using sudo (superuser privileges). This is useful when you don't have write permissions to the file."
+      ],
+      "category": "uncategorized"
+    },
+    ":wq or :x or ZZ": {
+      "canonical_description": "Saves the current file and exits Vim.",
+      "aliases": [
+        "Saves the current file and exits Vim."
+      ],
+      "category": "uncategorized"
+    },
+    ":q": {
+      "canonical_description": "Exits Vim. Fails if there are unsaved changes.",
+      "aliases": [
+        "Exits Vim. Fails if there are unsaved changes."
+      ],
+      "category": "uncategorized"
+    },
+    ":q! or ZQ": {
+      "canonical_description": "Exits Vim and discards any unsaved changes.",
+      "aliases": [
+        "Exits Vim and discards any unsaved changes."
+      ],
+      "category": "uncategorized"
+    },
+    ":wqa": {
+      "canonical_description": "Saves all open files and exits Vim.",
+      "aliases": [
+        "Saves all open files and exits Vim."
+      ],
+      "category": "uncategorized"
+    },
+    "/pattern": {
+      "canonical_description": "Searches forward for the specified pattern.",
+      "aliases": [
+        "Searches forward for the specified pattern."
+      ],
+      "category": "uncategorized"
+    },
+    "?pattern": {
+      "canonical_description": "Searches backward for the specified pattern.",
+      "aliases": [
+        "Searches backward for the specified pattern."
+      ],
+      "category": "uncategorized"
+    },
+    "\\vpattern": {
+      "canonical_description": "Searches for the specified pattern using 'very magic' mode, where non-alphanumeric characters are interpreted as special regex symbols without escaping.",
+      "aliases": [
+        "Searches for the specified pattern using 'very magic' mode, where non-alphanumeric characters are interpreted as special regex symbols without escaping."
+      ],
+      "category": "uncategorized"
+    },
+    "n": {
+      "canonical_description": "Repeats the last search in the same direction (forward).",
+      "aliases": [
+        "Repeats the last search in the same direction (forward)."
+      ],
+      "category": "uncategorized"
+    },
+    "N": {
+      "canonical_description": "Repeats the last search in the opposite direction (backward).",
+      "aliases": [
+        "Repeats the last search in the opposite direction (backward)."
+      ],
+      "category": "uncategorized"
+    },
+    ":%s/old/new/g": {
+      "canonical_description": "Replaces all occurrences of 'old' with 'new' throughout the entire file.",
+      "aliases": [
+        "Replaces all occurrences of 'old' with 'new' throughout the entire file."
+      ],
+      "category": "uncategorized"
+    },
+    ":%s/old/new/gc": {
+      "canonical_description": "Replaces all occurrences of 'old' with 'new' throughout the entire file, prompting for confirmation before each replacement.",
+      "aliases": [
+        "Replaces all occurrences of 'old' with 'new' throughout the entire file, prompting for confirmation before each replacement."
+      ],
+      "category": "uncategorized"
+    },
+    ":noh[lsearch]": {
+      "canonical_description": "Removes the highlighting of search matches.",
+      "aliases": [
+        "Removes the highlighting of search matches."
+      ],
+      "category": "uncategorized"
+    },
+    ":vim[grep] /pattern/ {`{file}`}": {
+      "canonical_description": "Searches for a given pattern in multiple files.",
+      "aliases": [
+        "Searches for a given pattern in multiple files."
+      ],
+      "category": "uncategorized"
+    },
+    ":cn[ext]": {
+      "canonical_description": "Jumps to the next match from a previous search.",
+      "aliases": [
+        "Jumps to the next match from a previous search."
+      ],
+      "category": "uncategorized"
+    },
+    ":cp[revious]": {
+      "canonical_description": "Jumps to the previous match from a previous search.",
+      "aliases": [
+        "Jumps to the previous match from a previous search."
+      ],
+      "category": "uncategorized"
+    },
+    ":cope[n]": {
+      "canonical_description": "Opens a window that displays a list of matches from the previous search.",
+      "aliases": [
+        "Opens a window that displays a list of matches from the previous search."
+      ],
+      "category": "uncategorized"
+    },
+    ":ccl[ose]": {
+      "canonical_description": "Closes the quickfix window, which contains the list of search results.",
+      "aliases": [
+        "Closes the quickfix window, which contains the list of search results."
+      ],
+      "category": "uncategorized"
+    },
+    ":tabnew  or  :tabnew {page.words.file}": {
+      "canonical_description": "Opens a new tab, optionally with a specified file.",
+      "aliases": [
+        "Opens a new tab, optionally with a specified file."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + wT": {
+      "canonical_description": "Moves the currently active split window into its own new tab.",
+      "aliases": [
+        "Moves the currently active split window into its own new tab."
+      ],
+      "category": "uncategorized"
+    },
+    "gt  or  :tabn[ext]": {
+      "canonical_description": "Navigates to the next tab.",
+      "aliases": [
+        "Navigates to the next tab."
+      ],
+      "category": "uncategorized"
+    },
+    "gT  or  :tabp[revious]": {
+      "canonical_description": "Navigates to the previous tab.",
+      "aliases": [
+        "Navigates to the previous tab."
+      ],
+      "category": "uncategorized"
+    },
+    "#gt": {
+      "canonical_description": "Moves to the tab specified by the number #.",
+      "aliases": [
+        "Moves to the tab specified by the number #."
+      ],
+      "category": "uncategorized"
+    },
+    ":tabm[ove] #": {
+      "canonical_description": "Moves the current tab to the position specified by the number # (indexed from 0).",
+      "aliases": [
+        "Moves the current tab to the position specified by the number # (indexed from 0)."
+      ],
+      "category": "uncategorized"
+    },
+    ":tabc[lose]": {
+      "canonical_description": "Closes the current tab and all its associated windows.",
+      "aliases": [
+        "Closes the current tab and all its associated windows."
+      ],
+      "category": "uncategorized"
+    },
+    ":tabo[nly]": {
+      "canonical_description": "Closes all tabs except the currently active tab.",
+      "aliases": [
+        "Closes all tabs except the currently active tab."
+      ],
+      "category": "uncategorized"
+    },
+    ":tabdo  command": {
+      "canonical_description": "Runs the specified command on all open tabs.",
+      "aliases": [
+        "Runs the specified command on all open tabs."
+      ],
+      "category": "uncategorized"
+    },
+    ":e[dit] file": {
+      "canonical_description": "Opens a specified file for editing in a new buffer.",
+      "aliases": [
+        "Opens a specified file for editing in a new buffer."
+      ],
+      "category": "uncategorized"
+    },
+    ":bn[ext]": {
+      "canonical_description": "Switches to the next buffer.",
+      "aliases": [
+        "Switches to the next buffer."
+      ],
+      "category": "uncategorized"
+    },
+    ":bp[revious]": {
+      "canonical_description": "Switches to the previous buffer.",
+      "aliases": [
+        "Switches to the previous buffer."
+      ],
+      "category": "uncategorized"
+    },
+    ":bd[elete]": {
+      "canonical_description": "Deletes a specified buffer, which effectively closes the associated file.",
+      "aliases": [
+        "Deletes a specified buffer, which effectively closes the associated file."
+      ],
+      "category": "uncategorized"
+    },
+    ":b[uffer]#": {
+      "canonical_description": "Switches to the buffer identified by its index number.",
+      "aliases": [
+        "Switches to the buffer identified by its index number."
+      ],
+      "category": "uncategorized"
+    },
+    ":b[uffer] file": {
+      "canonical_description": "Switches to the buffer associated with the specified file name.",
+      "aliases": [
+        "Switches to the buffer associated with the specified file name."
+      ],
+      "category": "uncategorized"
+    },
+    ":ls  or  :buffers": {
+      "canonical_description": "Displays a list of all currently open buffers.",
+      "aliases": [
+        "Displays a list of all currently open buffers."
+      ],
+      "category": "uncategorized"
+    },
+    ":sp[lit] file": {
+      "canonical_description": "Opens a specified file in a new buffer and splits the window horizontally to display it.",
+      "aliases": [
+        "Opens a specified file in a new buffer and splits the window horizontally to display it."
+      ],
+      "category": "uncategorized"
+    },
+    ":vs[plit] file": {
+      "canonical_description": "Opens a specified file in a new buffer and splits the window vertically to display it.",
+      "aliases": [
+        "Opens a specified file in a new buffer and splits the window vertically to display it."
+      ],
+      "category": "uncategorized"
+    },
+    ":vert[ical] ba[ll]": {
+      "canonical_description": "Arranges all open buffers as vertical windows.",
+      "aliases": [
+        "Arranges all open buffers as vertical windows."
+      ],
+      "category": "uncategorized"
+    },
+    ":tab ba[ll]": {
+      "canonical_description": "Opens all open buffers in separate tabs.",
+      "aliases": [
+        "Opens all open buffers in separate tabs."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + ws": {
+      "canonical_description": "Splits the current window horizontally, creating a new split.",
+      "aliases": [
+        "Splits the current window horizontally, creating a new split."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + wv": {
+      "canonical_description": "Splits the current window vertically, creating a new split.",
+      "aliases": [
+        "Splits the current window vertically, creating a new split."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + ww": {
+      "canonical_description": "Switches the focus to the next window within the current split arrangement.",
+      "aliases": [
+        "Switches the focus to the next window within the current split arrangement."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + wq": {
+      "canonical_description": "Closes the currently active window within a split arrangement.",
+      "aliases": [
+        "Closes the currently active window within a split arrangement."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + wx": {
+      "canonical_description": "Exchanges the position of the current window with the next one in the split arrangement.",
+      "aliases": [
+        "Exchanges the position of the current window with the next one in the split arrangement."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + w=": {
+      "canonical_description": "Resizes all windows in the current split arrangement to have equal height and width.",
+      "aliases": [
+        "Resizes all windows in the current split arrangement to have equal height and width."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + wh": {
+      "canonical_description": "Moves the cursor to the window located to the left in a vertical split arrangement.",
+      "aliases": [
+        "Moves the cursor to the window located to the left in a vertical split arrangement."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + wl": {
+      "canonical_description": "Moves the cursor to the window located to the right in a vertical split arrangement.",
+      "aliases": [
+        "Moves the cursor to the window located to the right in a vertical split arrangement."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + wj": {
+      "canonical_description": "Moves the cursor to the window located below in a horizontal split arrangement.",
+      "aliases": [
+        "Moves the cursor to the window located below in a horizontal split arrangement."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + wk": {
+      "canonical_description": "Moves the cursor to the window located above in a horizontal split arrangement.",
+      "aliases": [
+        "Moves the cursor to the window located above in a horizontal split arrangement."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + wH": {
+      "canonical_description": "Makes the current window occupy the full height of the screen and positions it as the leftmost window in a vertical split arrangement.",
+      "aliases": [
+        "Makes the current window occupy the full height of the screen and positions it as the leftmost window in a vertical split arrangement."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + wL": {
+      "canonical_description": "Makes the current window occupy the full height of the screen and positions it as the rightmost window in a vertical split arrangement.",
+      "aliases": [
+        "Makes the current window occupy the full height of the screen and positions it as the rightmost window in a vertical split arrangement."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + wJ": {
+      "canonical_description": "Makes the current window occupy the full width of the screen and positions it as the bottommost window in a horizontal split arrangement.",
+      "aliases": [
+        "Makes the current window occupy the full width of the screen and positions it as the bottommost window in a horizontal split arrangement."
+      ],
+      "category": "uncategorized"
+    },
+    "Ctrl + wK": {
+      "canonical_description": "Makes the current window occupy the full width of the screen and positions it as the topmost window in a horizontal split arrangement.",
+      "aliases": [
+        "Makes the current window occupy the full width of the screen and positions it as the topmost window in a horizontal split arrangement."
+      ],
+      "category": "uncategorized"
+    },
+    "zf": {
+      "canonical_description": "Manually defines a code fold from the current cursor position up to the specified motion.",
+      "aliases": [
+        "Manually defines a code fold from the current cursor position up to the specified motion."
+      ],
+      "category": "uncategorized"
+    },
+    "zd": {
+      "canonical_description": "Deletes the code fold located under the cursor.",
+      "aliases": [
+        "Deletes the code fold located under the cursor."
+      ],
+      "category": "uncategorized"
+    },
+    "za": {
+      "canonical_description": "Toggles the open/closed state of the code fold located under the cursor.",
+      "aliases": [
+        "Toggles the open/closed state of the code fold located under the cursor."
+      ],
+      "category": "uncategorized"
+    },
+    "zo": {
+      "canonical_description": "Opens (expands) the code fold located under the cursor.",
+      "aliases": [
+        "Opens (expands) the code fold located under the cursor."
+      ],
+      "category": "uncategorized"
+    },
+    "zc": {
+      "canonical_description": "Closes (collapses) the code fold located under the cursor.",
+      "aliases": [
+        "Closes (collapses) the code fold located under the cursor."
+      ],
+      "category": "uncategorized"
+    },
+    "zr": {
+      "canonical_description": "Reduces the folding level by one, effectively opening folds at the outermost level.",
+      "aliases": [
+        "Reduces the folding level by one, effectively opening folds at the outermost level."
+      ],
+      "category": "uncategorized"
+    },
+    "zm": {
+      "canonical_description": "Increases the folding level by one, effectively closing folds at the current level.",
+      "aliases": [
+        "Increases the folding level by one, effectively closing folds at the current level."
+      ],
+      "category": "uncategorized"
+    },
+    "zi": {
+      "canonical_description": "Toggles the folding functionality on or off.",
+      "aliases": [
+        "Toggles the folding functionality on or off."
+      ],
+      "category": "uncategorized"
+    },
+    "]c": {
+      "canonical_description": "Jumps to the start of the next change in the document.",
+      "aliases": [
+        "Jumps to the start of the next change in the document."
+      ],
+      "category": "uncategorized"
+    },
+    "[c": {
+      "canonical_description": "Jumps to the start of the previous change in the document.",
+      "aliases": [
+        "Jumps to the start of the previous change in the document."
+      ],
+      "category": "uncategorized"
+    },
+    "do  or  :diffg[et]": {
+      "canonical_description": "Obtains (gets) the difference from another buffer and applies it to the current buffer.",
+      "aliases": [
+        "Obtains (gets) the difference from another buffer and applies it to the current buffer."
+      ],
+      "category": "uncategorized"
+    },
+    "dp  or  :diffpu[t]": {
+      "canonical_description": "Puts (applies) the difference from the current buffer to another buffer.",
+      "aliases": [
+        "Puts (applies) the difference from the current buffer to another buffer."
+      ],
+      "category": "uncategorized"
+    },
+    ":diffthis": {
+      "canonical_description": "Marks the current window as part of the diff comparison.",
+      "aliases": [
+        "Marks the current window as part of the diff comparison."
+      ],
+      "category": "uncategorized"
+    },
+    ":dif[fupdate]": {
+      "canonical_description": "Updates the displayed differences between buffers in diff mode.",
+      "aliases": [
+        "Updates the displayed differences between buffers in diff mode."
+      ],
+      "category": "uncategorized"
+    },
+    ":diffo[ff]": {
+      "canonical_description": "Disables diff mode for the current window.",
+      "aliases": [
+        "Disables diff mode for the current window."
+      ],
+      "category": "uncategorized"
+    }
+  }
+}

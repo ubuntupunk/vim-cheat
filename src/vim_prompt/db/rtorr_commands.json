@@ -1,0 +1,886 @@
+{
+  "source": "rtorr",
+  "url": "https://vim.rtorr.com/",
+  "commands": {
+    ":h[elp] keyword": {
+      "fragment": "Opens the help page for the specified keyword in Vim.",
+      "available": true
+    },
+    ":sav[eas] file": {
+      "fragment": "Saves the current file with the specified file name.",
+      "available": true
+    },
+    ":clo[se]": {
+      "fragment": "Closes the current pane in Vim.",
+      "available": true
+    },
+    ":ter[minal]": {
+      "fragment": "Opens a terminal window within Vim.",
+      "available": true
+    },
+    "K": {
+      "fragment": "Opens the man page for the word currently under the cursor.",
+      "available": true
+    },
+    "h": {
+      "fragment": "Moves the cursor one character to the left.",
+      "available": true
+    },
+    "j": {
+      "fragment": "Moves the cursor one line down.",
+      "available": true
+    },
+    "k": {
+      "fragment": "Moves the cursor one line up.",
+      "available": true
+    },
+    "l": {
+      "fragment": "Moves the cursor one character to the right.",
+      "available": true
+    },
+    "gj": {
+      "fragment": "Moves the cursor down one line, considering wrapped lines as a single line.",
+      "available": true
+    },
+    "gk": {
+      "fragment": "Moves the cursor up one line, considering wrapped lines as a single line.",
+      "available": true
+    },
+    "H": {
+      "fragment": "Moves the cursor to the top of the screen.",
+      "available": true
+    },
+    "M": {
+      "fragment": "Moves the cursor to the middle of the screen.",
+      "available": true
+    },
+    "L": {
+      "fragment": "Moves the cursor to the bottom of the screen.",
+      "available": true
+    },
+    "w": {
+      "fragment": "Moves the cursor forward to the beginning of the next word.",
+      "available": true
+    },
+    "W": {
+      "fragment": "Moves the cursor forward to the beginning of the next word, considering punctuation as part of the word.",
+      "available": true
+    },
+    "e": {
+      "fragment": "Moves the cursor forward to the end of the current word.",
+      "available": true
+    },
+    "E": {
+      "fragment": "Moves the cursor forward to the end of the current word, considering punctuation as part of the word.",
+      "available": true
+    },
+    "b": {
+      "fragment": "Moves the cursor backward to the beginning of the previous word.",
+      "available": true
+    },
+    "B": {
+      "fragment": "Moves the cursor backward to the beginning of the previous word, considering punctuation as part of the word.",
+      "available": true
+    },
+    "ge": {
+      "fragment": "Moves the cursor backward to the end of the previous word.",
+      "available": true
+    },
+    "gE": {
+      "fragment": "Moves the cursor backward to the end of the previous word, considering punctuation as part of the word.",
+      "available": true
+    },
+    "%": {
+      "fragment": "Moves the cursor to the matching character of a pair, such as parentheses, brackets, or braces. Use :h matchpairs in Vim for more information on supported pairs.",
+      "available": true
+    },
+    "0": {
+      "fragment": "Moves the cursor to the very beginning of the current line.",
+      "available": true
+    },
+    "^": {
+      "fragment": "Moves the cursor to the first non-blank character on the current line.",
+      "available": true
+    },
+    "$": {
+      "fragment": "Moves the cursor to the end of the current line.",
+      "available": true
+    },
+    "g_": {
+      "fragment": "Moves the cursor to the last non-blank character on the current line.",
+      "available": true
+    },
+    "gg": {
+      "fragment": "Moves the cursor to the first line of the document.",
+      "available": true
+    },
+    "G": {
+      "fragment": "Moves the cursor to the last line of the document.",
+      "available": true
+    },
+    "5gg or 5G": {
+      "fragment": "Moves the cursor to line number 5 in the document.",
+      "available": true
+    },
+    "gd": {
+      "fragment": "Moves the cursor to the local declaration of the variable under the cursor (useful for code editing).",
+      "available": true
+    },
+    "gD": {
+      "fragment": "Moves the cursor to the global declaration of the variable under the cursor (useful for code editing).",
+      "available": true
+    },
+    "fx": {
+      "fragment": "Moves the cursor to the next occurrence of character 'x' on the current line.",
+      "available": true
+    },
+    "tx": {
+      "fragment": "Moves the cursor to the position before the next occurrence of character 'x' on the current line.",
+      "available": true
+    },
+    "Fx": {
+      "fragment": "Moves the cursor to the previous occurrence of character 'x' on the current line.",
+      "available": true
+    },
+    "Tx": {
+      "fragment": "Moves the cursor to the position after the previous occurrence of character 'x' on the current line.",
+      "available": true
+    },
+    ";": {
+      "fragment": "Repeats the previous f, t, F, or T cursor movement command in the same direction.",
+      "available": true
+    },
+    ",": {
+      "fragment": "Repeats the previous f, t, F, or T cursor movement command in the opposite direction.",
+      "available": true
+    },
+    "}": {
+      "fragment": "Moves the cursor to the beginning of the next paragraph. When editing code, it moves to the next function or block.",
+      "available": true
+    },
+    "{": {
+      "fragment": "Moves the cursor to the beginning of the previous paragraph. When editing code, it moves to the previous function or block.",
+      "available": true
+    },
+    "zz": {
+      "fragment": "Centers the cursor vertically on the screen.",
+      "available": true
+    },
+    "zt": {
+      "fragment": "Positions the cursor at the top of the screen.",
+      "available": true
+    },
+    "zb": {
+      "fragment": "Positions the cursor at the bottom of the screen.",
+      "available": true
+    },
+    "Ctrl + e": {
+      "fragment": "Scrolls the screen down one line without moving the cursor.",
+      "available": true
+    },
+    "Ctrl + y": {
+      "fragment": "Scrolls the screen up one line without moving the cursor.",
+      "available": true
+    },
+    "Ctrl + b": {
+      "fragment": "Scrolls the screen up one page and moves the cursor to the last line of the new page.",
+      "available": true
+    },
+    "Ctrl + f": {
+      "fragment": "Scrolls the screen down one page and moves the cursor to the first line of the new page.",
+      "available": true
+    },
+    "Ctrl + d": {
+      "fragment": "De-indents the current line one shiftwidth to the left while in insert mode.",
+      "available": true
+    },
+    "Ctrl + u": {
+      "fragment": "Scrolls the screen up half a page and moves the cursor accordingly.",
+      "available": true
+    },
+    "i": {
+      "fragment": "Enters insert mode and starts inserting text before the cursor position.",
+      "available": true
+    },
+    "I": {
+      "fragment": "Enters insert mode and starts inserting text at the beginning of the current line.",
+      "available": true
+    },
+    "a": {
+      "fragment": "Enters insert mode and starts inserting text after the cursor position.",
+      "available": true
+    },
+    "A": {
+      "fragment": "Enters insert mode and starts inserting text at the end of the current line.",
+      "available": true
+    },
+    "o": {
+      "fragment": "While in visual mode, this command moves the cursor to the opposite end of the currently selected area.",
+      "available": true
+    },
+    "O": {
+      "fragment": "While in visual block mode, this command moves the cursor to the opposite corner of the selected block.",
+      "available": true
+    },
+    "ea": {
+      "fragment": "Moves the cursor to the end of the current word and enters insert mode.",
+      "available": true
+    },
+    "Ctrl + h": {
+      "fragment": "Deletes the character before the cursor while in insert mode.",
+      "available": true
+    },
+    "Ctrl + w": {
+      "fragment": "Deletes the word before the cursor while in insert mode.",
+      "available": true
+    },
+    "Ctrl + j": {
+      "fragment": "Inserts a line break at the current cursor position while in insert mode.",
+      "available": true
+    },
+    "Ctrl + t": {
+      "fragment": "Indents the current line one shiftwidth to the right while in insert mode.",
+      "available": true
+    },
+    "Ctrl + n": {
+      "fragment": "Inserts the next matching completion before the cursor while in insert mode.",
+      "available": true
+    },
+    "Ctrl + p": {
+      "fragment": "Inserts the previous matching completion before the cursor while in insert mode.",
+      "available": true
+    },
+    "Ctrl + rx": {
+      "fragment": "Inserts the contents of register 'x' at the cursor position.",
+      "available": true
+    },
+    "Ctrl + ox": {
+      "fragment": "Temporarily switches to normal mode from insert mode to execute a single normal mode command 'x'. After executing the command, it returns to insert mode.",
+      "available": true
+    },
+    "Esc or Ctrl + c": {
+      "fragment": "Exits visual mode.",
+      "available": true
+    },
+    "r": {
+      "fragment": "Replaces the character under the cursor with the next character typed.",
+      "available": true
+    },
+    "R": {
+      "fragment": "Enters replace mode, allowing you to replace multiple characters until the ESC key is pressed.",
+      "available": true
+    },
+    "J": {
+      "fragment": "Joins the line below the current line to the end of the current line, adding a single space in between.",
+      "available": true
+    },
+    "gJ": {
+      "fragment": "Joins the line below the current line to the end of the current line without adding any space.",
+      "available": true
+    },
+    "gwip": {
+      "fragment": "Reflows the current paragraph, adjusting line breaks to fit within the current window width.",
+      "available": true
+    },
+    "g~": {
+      "fragment": "Switches the case of characters (uppercase to lowercase or vice versa) from the cursor position to the end of the specified motion.",
+      "available": true
+    },
+    "gu": {
+      "fragment": "Changes the characters from the cursor position to the end of the specified motion to lowercase.",
+      "available": true
+    },
+    "gU": {
+      "fragment": "Changes text to uppercase up to the specified motion.",
+      "available": true
+    },
+    "cc": {
+      "fragment": "Replaces the content of the entire current line.",
+      "available": true
+    },
+    "c$ or C": {
+      "fragment": "Replaces text from the cursor position to the end of the current line.",
+      "available": true
+    },
+    "ciw": {
+      "fragment": "Replaces the entire word under the cursor.",
+      "available": true
+    },
+    "cw or ce": {
+      "fragment": "Replaces text from the cursor position to the end of the current word.",
+      "available": true
+    },
+    "s": {
+      "fragment": "Deletes the character under the cursor and enters insert mode to allow substitution of text (same as cl).",
+      "available": true
+    },
+    "S": {
+      "fragment": "Deletes the entire line and enters insert mode to allow substitution of text (same as cc).",
+      "available": true
+    },
+    "xp": {
+      "fragment": "Transposes the character under the cursor with the character to its right (effectively deleting and pasting).",
+      "available": true
+    },
+    "u": {
+      "fragment": "In visual mode, changes the selected text to lowercase.",
+      "available": true
+    },
+    "U": {
+      "fragment": "In visual mode, changes the selected text to uppercase.",
+      "available": true
+    },
+    "Ctrl + r": {
+      "fragment": "Redoes a previously undone change.",
+      "available": true
+    },
+    ".": {
+      "fragment": "Repeats the last executed command.",
+      "available": true
+    },
+    "v": {
+      "fragment": "Starts visual mode, allowing you to select text by moving the cursor. Once text is selected, you can perform various commands on it (like yanking/copying).",
+      "available": true
+    },
+    "V": {
+      "fragment": "Starts linewise visual mode, which allows you to select entire lines by moving the cursor.",
+      "available": true
+    },
+    "Ctrl + v": {
+      "fragment": "Starts visual block mode, allowing you to select a rectangular block of text.",
+      "available": true
+    },
+    "aw": {
+      "fragment": "In visual mode, selects the current word.",
+      "available": true
+    },
+    "ab": {
+      "fragment": "In visual mode, selects a block of text enclosed by parentheses ().",
+      "available": true
+    },
+    "aB": {
+      "fragment": "In visual mode, selects a block of text enclosed by curly braces {}.",
+      "available": true
+    },
+    "at": {
+      "fragment": "In visual mode, selects a block of text enclosed by angle brackets <> (often used for tags).",
+      "available": true
+    },
+    "ib": {
+      "fragment": "In visual mode, selects the text within the nearest enclosing parentheses ().",
+      "available": true
+    },
+    "iB": {
+      "fragment": "In visual mode, selects the text within the nearest enclosing curly braces {}.",
+      "available": true
+    },
+    "it": {
+      "fragment": "In visual mode, selects the text within the nearest enclosing angle brackets <> (often used for tags).",
+      "available": true
+    },
+    ">": {
+      "fragment": "In visual mode, shifts the selected text one indentation level to the right.",
+      "available": true
+    },
+    "<": {
+      "fragment": "In visual mode, shifts the selected text one indentation level to the left.",
+      "available": true
+    },
+    "y": {
+      "fragment": "In visual mode, copies (yanks) the selected text into the clipboard.",
+      "available": true
+    },
+    "d": {
+      "fragment": "In visual mode, deletes the selected text.",
+      "available": true
+    },
+    "~": {
+      "fragment": "In visual mode, switches the case (uppercase/lowercase) of the selected text.",
+      "available": true
+    },
+    ":reg[isters]": {
+      "fragment": "Displays the contents of all registers.",
+      "available": true
+    },
+    "\"xy": {
+      "fragment": "Copies (yanks) the selected text into the specified register x.",
+      "available": true
+    },
+    "\"xp": {
+      "fragment": "Pastes the contents of the specified register x.",
+      "available": true
+    },
+    "\"+y": {
+      "fragment": "Copies (yanks) the selected text into the system clipboard.",
+      "available": true
+    },
+    "\"+p": {
+      "fragment": "Pastes the contents of the system clipboard.",
+      "available": true
+    },
+    ":marks": {
+      "fragment": "Displays a list of all saved marks.",
+      "available": true
+    },
+    "ma": {
+      "fragment": "Sets the current cursor position as mark A. You can use any letter for the mark name.",
+      "available": true
+    },
+    "`a": {
+      "fragment": "Moves the cursor to the position marked as A.",
+      "available": true
+    },
+    "y`a": {
+      "fragment": "Copies (yanks) the selected text and places it at the position marked as A.",
+      "available": true
+    },
+    "`0": {
+      "fragment": "Moves the cursor to the position where Vim was last exited.",
+      "available": true
+    },
+    "'\"": {
+      "fragment": "Moves the cursor to the position when you last edited this file.",
+      "available": true
+    },
+    "`.`": {
+      "fragment": "Moves the cursor to the position of the last change in this file.",
+      "available": true
+    },
+    "``": {
+      "fragment": "Moves the cursor to the position before the last jump.",
+      "available": true
+    },
+    ":ju[mps]": {
+      "fragment": "Displays a list of all recent jumps.",
+      "available": true
+    },
+    "Ctrl + i": {
+      "fragment": "Moves the cursor to the next newer position in the jump list.",
+      "available": true
+    },
+    "Ctrl + o": {
+      "fragment": "Moves the cursor to the next older position in the jump list.",
+      "available": true
+    },
+    ":changes": {
+      "fragment": "Displays a list of all recent changes made in the buffer.",
+      "available": true
+    },
+    "g,": {
+      "fragment": "Moves the cursor to the next newer position in the change list.",
+      "available": true
+    },
+    "g;": {
+      "fragment": "Moves the cursor to the next older position in the change list.",
+      "available": true
+    },
+    "Ctrl + ]": {
+      "fragment": "Jumps to the definition of the tag under the cursor.",
+      "available": true
+    },
+    "qa": {
+      "fragment": "Starts recording a macro and saves it in register 'a'.",
+      "available": true
+    },
+    "q": {
+      "fragment": "Stops recording the current macro.",
+      "available": true
+    },
+    "@a": {
+      "fragment": "Executes the macro stored in register 'a'.",
+      "available": true
+    },
+    "@@": {
+      "fragment": "Repeats the last executed macro.",
+      "available": true
+    },
+    "yy": {
+      "fragment": "Copies the current line into the default register (\").",
+      "available": true
+    },
+    "2yy": {
+      "fragment": "Copies the current line and the next line into the default register (\").",
+      "available": true
+    },
+    "yw": {
+      "fragment": "Copies the characters of the word from the cursor position to the start of the next word into the default register (\").",
+      "available": true
+    },
+    "yiw": {
+      "fragment": "Copies the word under the cursor into the default register (\").",
+      "available": true
+    },
+    "yaw": {
+      "fragment": "Copies the word under the cursor and the space after or before it into the default register (\").",
+      "available": true
+    },
+    "y$ or Y": {
+      "fragment": "Copies the characters from the cursor position to the end of the line into the default register (\").",
+      "available": true
+    },
+    "p": {
+      "fragment": "Pastes the contents of the default register (\") after the cursor.",
+      "available": true
+    },
+    "P": {
+      "fragment": "Pastes the contents of the default register (\") before the cursor.",
+      "available": true
+    },
+    "gp": {
+      "fragment": "Pastes the contents of the default register (\") after the cursor and leaves the cursor after the new text.",
+      "available": true
+    },
+    "gP": {
+      "fragment": "Pastes the contents of the default register (\") before the cursor and leaves the cursor after the new text.",
+      "available": true
+    },
+    "dd": {
+      "fragment": "Deletes the current line and places it in the default register (\").",
+      "available": true
+    },
+    "2dd": {
+      "fragment": "Deletes the current line and the next line and places them in the default register (\").",
+      "available": true
+    },
+    "dw": {
+      "fragment": "Deletes the characters of the word from the cursor position to the start of the next word and places them in the default register (\").",
+      "available": true
+    },
+    "diw": {
+      "fragment": "Deletes the word under the cursor and places it in the default register (\").",
+      "available": true
+    },
+    "daw": {
+      "fragment": "Deletes the word under the cursor and the space after or before it and places it in the default register (\").",
+      "available": true
+    },
+    ":3,5d": {
+      "fragment": "Deletes lines 3 through 5.",
+      "available": true
+    },
+    "d$ or D": {
+      "fragment": "Deletes the characters from the cursor position to the end of the line and places them in the default register (\").",
+      "available": true
+    },
+    "x": {
+      "fragment": "Deletes the character under the cursor and places it in the default register (\").",
+      "available": true
+    },
+    ">>": {
+      "fragment": "Indents the current line one shiftwidth to the right.",
+      "available": true
+    },
+    "<<": {
+      "fragment": "De-indents the current line one shiftwidth to the left.",
+      "available": true
+    },
+    ">%": {
+      "fragment": "Indents a block enclosed by parentheses () or curly brackets {}, with the cursor positioned on the opening or closing brace.",
+      "available": true
+    },
+    "<%": {
+      "fragment": "De-indents a block enclosed by parentheses () or curly brackets {}, with the cursor positioned on the opening or closing brace.",
+      "available": true
+    },
+    ">ib": {
+      "fragment": "Indents the inner block enclosed by parentheses ().",
+      "available": true
+    },
+    ">at": {
+      "fragment": "Indents a block enclosed by angle brackets <> (tags).",
+      "available": true
+    },
+    "3==": {
+      "fragment": "Re-indents the current line and the two lines below it.",
+      "available": true
+    },
+    "=%": {
+      "fragment": "Re-indents a block enclosed by parentheses () or curly brackets {}, with the cursor positioned on the opening or closing brace.",
+      "available": true
+    },
+    "=iB": {
+      "fragment": "Re-indents the inner block enclosed by curly brackets {}.",
+      "available": true
+    },
+    "gg=G": {
+      "fragment": "Re-indents the entire buffer (all lines in the current file).",
+      "available": true
+    },
+    "]p": {
+      "fragment": "Pastes the contents of the default register (\") and adjusts the indentation to match the current line.",
+      "available": true
+    },
+    ":w": {
+      "fragment": "Saves the current file without exiting Vim.",
+      "available": true
+    },
+    ":w !sudo tee %": {
+      "fragment": "Saves the current file using sudo (superuser privileges). This is useful when you don't have write permissions to the file.",
+      "available": true
+    },
+    ":wq or :x or ZZ": {
+      "fragment": "Saves the current file and exits Vim.",
+      "available": true
+    },
+    ":q": {
+      "fragment": "Exits Vim. Fails if there are unsaved changes.",
+      "available": true
+    },
+    ":q! or ZQ": {
+      "fragment": "Exits Vim and discards any unsaved changes.",
+      "available": true
+    },
+    ":wqa": {
+      "fragment": "Saves all open files and exits Vim.",
+      "available": true
+    },
+    "/pattern": {
+      "fragment": "Searches forward for the specified pattern.",
+      "available": true
+    },
+    "?pattern": {
+      "fragment": "Searches backward for the specified pattern.",
+      "available": true
+    },
+    "\\vpattern": {
+      "fragment": "Searches for the specified pattern using 'very magic' mode, where non-alphanumeric characters are interpreted as special regex symbols without escaping.",
+      "available": true
+    },
+    "n": {
+      "fragment": "Repeats the last search in the same direction (forward).",
+      "available": true
+    },
+    "N": {
+      "fragment": "Repeats the last search in the opposite direction (backward).",
+      "available": true
+    },
+    ":%s/old/new/g": {
+      "fragment": "Replaces all occurrences of 'old' with 'new' throughout the entire file.",
+      "available": true
+    },
+    ":%s/old/new/gc": {
+      "fragment": "Replaces all occurrences of 'old' with 'new' throughout the entire file, prompting for confirmation before each replacement.",
+      "available": true
+    },
+    ":noh[lsearch]": {
+      "fragment": "Removes the highlighting of search matches.",
+      "available": true
+    },
+    ":vim[grep] /pattern/ {`{file}`}": {
+      "fragment": "Searches for a given pattern in multiple files.",
+      "available": true
+    },
+    ":cn[ext]": {
+      "fragment": "Jumps to the next match from a previous search.",
+      "available": true
+    },
+    ":cp[revious]": {
+      "fragment": "Jumps to the previous match from a previous search.",
+      "available": true
+    },
+    ":cope[n]": {
+      "fragment": "Opens a window that displays a list of matches from the previous search.",
+      "available": true
+    },
+    ":ccl[ose]": {
+      "fragment": "Closes the quickfix window, which contains the list of search results.",
+      "available": true
+    },
+    ":tabnew  or  :tabnew {page.words.file}": {
+      "fragment": "Opens a new tab, optionally with a specified file.",
+      "available": true
+    },
+    "Ctrl + wT": {
+      "fragment": "Moves the currently active split window into its own new tab.",
+      "available": true
+    },
+    "gt  or  :tabn[ext]": {
+      "fragment": "Navigates to the next tab.",
+      "available": true
+    },
+    "gT  or  :tabp[revious]": {
+      "fragment": "Navigates to the previous tab.",
+      "available": true
+    },
+    "#gt": {
+      "fragment": "Moves to the tab specified by the number #.",
+      "available": true
+    },
+    ":tabm[ove] #": {
+      "fragment": "Moves the current tab to the position specified by the number # (indexed from 0).",
+      "available": true
+    },
+    ":tabc[lose]": {
+      "fragment": "Closes the current tab and all its associated windows.",
+      "available": true
+    },
+    ":tabo[nly]": {
+      "fragment": "Closes all tabs except the currently active tab.",
+      "available": true
+    },
+    ":tabdo  command": {
+      "fragment": "Runs the specified command on all open tabs.",
+      "available": true
+    },
+    ":e[dit] file": {
+      "fragment": "Opens a specified file for editing in a new buffer.",
+      "available": true
+    },
+    ":bn[ext]": {
+      "fragment": "Switches to the next buffer.",
+      "available": true
+    },
+    ":bp[revious]": {
+      "fragment": "Switches to the previous buffer.",
+      "available": true
+    },
+    ":bd[elete]": {
+      "fragment": "Deletes a specified buffer, which effectively closes the associated file.",
+      "available": true
+    },
+    ":b[uffer]#": {
+      "fragment": "Switches to the buffer identified by its index number.",
+      "available": true
+    },
+    ":b[uffer] file": {
+      "fragment": "Switches to the buffer associated with the specified file name.",
+      "available": true
+    },
+    ":ls  or  :buffers": {
+      "fragment": "Displays a list of all currently open buffers.",
+      "available": true
+    },
+    ":sp[lit] file": {
+      "fragment": "Opens a specified file in a new buffer and splits the window horizontally to display it.",
+      "available": true
+    },
+    ":vs[plit] file": {
+      "fragment": "Opens a specified file in a new buffer and splits the window vertically to display it.",
+      "available": true
+    },
+    ":vert[ical] ba[ll]": {
+      "fragment": "Arranges all open buffers as vertical windows.",
+      "available": true
+    },
+    ":tab ba[ll]": {
+      "fragment": "Opens all open buffers in separate tabs.",
+      "available": true
+    },
+    "Ctrl + ws": {
+      "fragment": "Splits the current window horizontally, creating a new split.",
+      "available": true
+    },
+    "Ctrl + wv": {
+      "fragment": "Splits the current window vertically, creating a new split.",
+      "available": true
+    },
+    "Ctrl + ww": {
+      "fragment": "Switches the focus to the next window within the current split arrangement.",
+      "available": true
+    },
+    "Ctrl + wq": {
+      "fragment": "Closes the currently active window within a split arrangement.",
+      "available": true
+    },
+    "Ctrl + wx": {
+      "fragment": "Exchanges the position of the current window with the next one in the split arrangement.",
+      "available": true
+    },
+    "Ctrl + w=": {
+      "fragment": "Resizes all windows in the current split arrangement to have equal height and width.",
+      "available": true
+    },
+    "Ctrl + wh": {
+      "fragment": "Moves the cursor to the window located to the left in a vertical split arrangement.",
+      "available": true
+    },
+    "Ctrl + wl": {
+      "fragment": "Moves the cursor to the window located to the right in a vertical split arrangement.",
+      "available": true
+    },
+    "Ctrl + wj": {
+      "fragment": "Moves the cursor to the window located below in a horizontal split arrangement.",
+      "available": true
+    },
+    "Ctrl + wk": {
+      "fragment": "Moves the cursor to the window located above in a horizontal split arrangement.",
+      "available": true
+    },
+    "Ctrl + wH": {
+      "fragment": "Makes the current window occupy the full height of the screen and positions it as the leftmost window in a vertical split arrangement.",
+      "available": true
+    },
+    "Ctrl + wL": {
+      "fragment": "Makes the current window occupy the full height of the screen and positions it as the rightmost window in a vertical split arrangement.",
+      "available": true
+    },
+    "Ctrl + wJ": {
+      "fragment": "Makes the current window occupy the full width of the screen and positions it as the bottommost window in a horizontal split arrangement.",
+      "available": true
+    },
+    "Ctrl + wK": {
+      "fragment": "Makes the current window occupy the full width of the screen and positions it as the topmost window in a horizontal split arrangement.",
+      "available": true
+    },
+    "zf": {
+      "fragment": "Manually defines a code fold from the current cursor position up to the specified motion.",
+      "available": true
+    },
+    "zd": {
+      "fragment": "Deletes the code fold located under the cursor.",
+      "available": true
+    },
+    "za": {
+      "fragment": "Toggles the open/closed state of the code fold located under the cursor.",
+      "available": true
+    },
+    "zo": {
+      "fragment": "Opens (expands) the code fold located under the cursor.",
+      "available": true
+    },
+    "zc": {
+      "fragment": "Closes (collapses) the code fold located under the cursor.",
+      "available": true
+    },
+    "zr": {
+      "fragment": "Reduces the folding level by one, effectively opening folds at the outermost level.",
+      "available": true
+    },
+    "zm": {
+      "fragment": "Increases the folding level by one, effectively closing folds at the current level.",
+      "available": true
+    },
+    "zi": {
+      "fragment": "Toggles the folding functionality on or off.",
+      "available": true
+    },
+    "]c": {
+      "fragment": "Jumps to the start of the next change in the document.",
+      "available": true
+    },
+    "[c": {
+      "fragment": "Jumps to the start of the previous change in the document.",
+      "available": true
+    },
+    "do  or  :diffg[et]": {
+      "fragment": "Obtains (gets) the difference from another buffer and applies it to the current buffer.",
+      "available": true
+    },
+    "dp  or  :diffpu[t]": {
+      "fragment": "Puts (applies) the difference from the current buffer to another buffer.",
+      "available": true
+    },
+    ":diffthis": {
+      "fragment": "Marks the current window as part of the diff comparison.",
+      "available": true
+    },
+    ":dif[fupdate]": {
+      "fragment": "Updates the displayed differences between buffers in diff mode.",
+      "available": true
+    },
+    ":diffo[ff]": {
+      "fragment": "Disables diff mode for the current window.",
+      "available": true
+    }
+  }
+}

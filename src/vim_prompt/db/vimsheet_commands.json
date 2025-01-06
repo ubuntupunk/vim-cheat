@@ -1,0 +1,34 @@
+{
+  "source": "vimsheet",
+  "url": "https://vimsheet.com/",
+  "commands": {
+    ":q": {
+      "fragment": "quit (close window)",
+      "available": true
+    },
+    ":w": {
+      "fragment": "write (save)",
+      "available": true
+    },
+    ":wq": {
+      "fragment": "write (save) and quit",
+      "available": true
+    },
+    ":q!": {
+      "fragment": "quit without saving",
+      "available": true
+    },
+    ":wq!": {
+      "fragment": "write (save) and quit",
+      "available": true
+    },
+    "ZZ": {
+      "fragment": "write (save) and quit",
+      "available": true
+    },
+    "ZQ": {
+      "fragment": "quit without saving",
+      "available": true
+    }
+  }
+}
