@@ -9,6 +9,50 @@ import subprocess
 import webbrowser
 import os
 
+RED = '\033[91m'
+GREEN = '\033[92m'
+BLUE = '\033[94m'
+BOLD = '\033[1m'
+RESET = '\033[0m'
+
+def check_rofi_installed():
+    """Check if rofi is available in the system."""
+    try:
+        subprocess.run(['which', 'rofi'], capture_output=True, check=True)
+        return True
+    except subprocess.CalledProcessError:
+        return False
+
+def get_package_manager_instructions():
+    """Return installation instructions for various package managers."""
+    instructions = f"""
+    {RED}{BOLD}Rofi is not installed.{RESET} Please install it using one of the following methods:
+
+    {BLUE}For Debian/Ubuntu:{RESET}
+    sudo apt update && sudo apt install rofi
+
+    {BLUE}For Arch Linux:{RESET}
+    sudo pacman -S rofi
+
+    {BLUE}For Fedora:{RESET}
+    sudo dnf install rofi
+
+    {BLUE}For macOS:{RESET}
+    brew install rofi
+
+    {GREEN}Alternative methods:{RESET}
+    1. Using Git:
+    git clone https://github.com/davatorium/rofi.git
+    cd rofi
+    mkdir build && cd build
+    ../configure
+    make
+    sudo make install
+
+    {RED}{BOLD}Please install rofi and try again.{RESET}
+"""
+    return instructions
+
 def load_vim_commands(file_path):
     """Load Vim commands from a JSON file."""
     package_dir = os.path.dirname(os.path.abspath(__file__))
@@ -30,9 +74,11 @@ def format_commands_for_rofi(commands):
 
 def execute_rofi(commands):
     """Execute rofi and return the selected command."""
+    if not check_rofi_installed():
+        print(get_package_manager_instructions())
+        sys.exit(1)
+
     rofi_process = subprocess.Popen(
-        # ['rofi', '-dmenu', '-i', '-show-icons', '-theme-str', 'entry { placeholder: ""; }', f'window {{ icon: "{icon_path}"; }}',
-        #  '-theme-str', f'listview {{ columns: 1; }}', '-p','Vim Command:'],
         ['rofi','-dmenu', '-i', '-show-icons', '-theme-str', f'configuration {{ icon: "{icon_path}"; }}',
          '-theme-str', 'window { width: 35%; }','-theme-str', 'listview { columns: 1; }','-p', 'Vim Command:'],
         stdin=subprocess.PIPE,
