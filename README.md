@@ -6,6 +6,10 @@
   <img alt="Vim Prompt Cover" src="https://github.com/ubuntupunk/vim-prompt/blob/main/src/vim_prompt/readme/Light-Cover.png">
 </picture>
 
+
+<a href="https://www.buymeacoffee.com/ubuntupunk" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+
 This project provides two helpers to access to **Vim commands** and **shortcuts** via an **interactive cheat sheet**. Using the helpers may assist those wanting to learn more about Vim. This version is for posix-compliant systems that are able to install fzf/rofi, if you want the Windows version use [FlowLauncher Plugin VimCheatSheet](https://github.com/MoAlSeifi/Flow.Launcher.Plugin.VimCheatSheet)
 
 ## Versions
